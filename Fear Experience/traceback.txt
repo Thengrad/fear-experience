@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 33, in script
+    "It is now [clock]hrs. You have [fear]% anxiety"
+ValueError: unsupported format character 'a' (0x61) at index 39
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 33, in script
+    "It is now [clock]hrs. You have [fear]% anxiety"
+  File "C:\Users\blade\Desktop\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\blade\Desktop\renpy-6.99.13-sdk\renpy\exports.py", line 1162, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character 'a' (0x61) at index 39
+
+Windows-8-6.2.9200
+Ren'Py 6.99.13.2919
+Fear Experience 1.0
